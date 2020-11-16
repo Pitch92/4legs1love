@@ -18,7 +18,7 @@ body
 
 	margin: 0;
 
-	background-image: url("Background.jpg");
+	background-image: url("background.jpg");
 	background-blend-mode: luminosity;
 	background-position: center;
 	background-repeat: no-repeat;
