@@ -8,6 +8,7 @@ body
 {
 	background-color: #F8F8F8;
 	margin:0;
+	height: 105vh;
 }
 
 .row
@@ -20,7 +21,6 @@ body
 	height: 25vh;
 	line-height: 35vh;
 	text-align: center;
-	justify-content: center;
 }
 
 .column
@@ -59,8 +59,10 @@ body
 }
 
 
-.button {
+.button
+{
 	background-color: #FCA311;
+	background-color: none;
 	background-size: 100%;
 
 	font-family: 'Poppins', sans-serif;
@@ -68,7 +70,7 @@ body
 	font-weight: 700;
 	font-size: 12pt;
 
-	border-radius: 10px;
+	border-radius: 2vh;
 
 	height: 9vh;
 	line-height: 9vh;
@@ -81,36 +83,16 @@ body
 
 	text-align: center;
 
-}
-
-
-
-.menu
-{
-	margin:0;
-	padding: 0;
-	width: 100vw;
-	height: 7vh;
-	line-height: 7vh;
-	background-color: white;
-	font-family: 'Poppins', sans-serif;
-
-	position:fixed;
-	z-index: 3;
+	border: 2px solid #FCA311;
+	transition-duration: .3s;
 
 }
 
-.menu a:link, .menu a:visited
+.button:hover
 {
-	color: black;
-	text-decoration: none;
-}
-.menu a
-{
-	margin-right : 5%;
-	align-self: center;
-	text-align: right;
-	float: right;
+	background-color: rgba(0, 0, 0, 0);
+	transition-duration: .3s;
+	transform: scale(1.04);
 }
 
 .smallFont
