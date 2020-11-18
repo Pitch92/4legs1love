@@ -1,4 +1,4 @@
-/* updated html!!*/
+/* new updated html!!*/
 
 body
 {
@@ -26,11 +26,6 @@ body
 	background-size: cover;
 
 	height: 90vh;
-}
-
-.about
-{
-	color: black;
 }
 
 .button {
@@ -84,15 +79,33 @@ body
 	border-radius: 50%;
 }
 
+.solutionSection
+{
+	background-color: #E67E22;
+	height: 90vh
+}
+.screen
+{
+	height: 80%;
+	float: right;
+	margin-right: 5px;
+}
 
-.ourTeam
+.scenarioSection
+{
+	background-color: white;
+	height: 90vh;
+}
+
+
+.teamSection
 {
 	text-align: center;
 	background-color: #14213D;
 	height: 90vh;
 }
 
-.column20
+.column5
 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
@@ -176,7 +189,6 @@ h5
 	font-family: 'Martel', serif;
 	font-weight: 500;
 	font-size: 22pt;
-	color: black;
 	margin: 10vw;
 	line-height: 42pt;
 }
@@ -186,8 +198,8 @@ h6
 	font-weight: 500;
 	font-size: 30pt;
 	color: #EDEDED;
-	padding-top: 20vh;
-	margin: 5vh	;
+	margin: 0	;
+	padding-top: 10vh;
 }
 
 .bold
