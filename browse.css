@@ -41,11 +41,6 @@ body
 	position: relative;
 }
 
-.column:hover
-{
-	cursor: pointer;
-}
-
 .logo
 {
 	margin: 1vh;
