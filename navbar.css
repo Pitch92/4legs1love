@@ -1,4 +1,17 @@
 
+.logo
+{
+	margin: 1vh;
+	margin-left: 5vw;
+	height: 5vh;
+}
+
+.logo:hover
+{
+	cursor: pointer;
+}
+
+
 .navBar
 {
 	background-color: white;
