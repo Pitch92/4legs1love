@@ -27,7 +27,7 @@ body
 	height: 90vh;
 }
 
-.button {
+.buttonCover {
 	background-color: #FCA311;
 	background-size: 100%;
 
@@ -52,7 +52,7 @@ body
 }
 
 
-.button:hover
+.buttonCover:hover
 {
 	cursor: pointer;
 	background-color: rgba(201, 76, 76, 0);
@@ -60,6 +60,41 @@ body
 	transform: scale(1.04);
 	transition-duration: .2s;
 }
+
+.button
+{
+	background-color: #FCA311;
+	background-color: none;
+	background-size: 100%;
+
+	font-family: 'Poppins', sans-serif;
+	color:  #14213D;
+	font-weight: 400;
+	font-size: 12pt;
+
+	border-radius: 2vh;
+
+
+	bottom: 5vh;
+	width: auto;
+	padding: 2% 2% 2% 2%;
+	margin-left:35%;
+	margin-right:35%;
+
+	text-align: center;
+
+	border: 2px solid #FCA311;
+	transition-duration: .3s;
+}
+
+.button:hover
+{
+	background-color: rgba(0, 0, 0, 0);
+	transition-duration: .3s;
+	transform: scale(1.04);
+	cursor: pointer;
+}
+
 
 .logo
 {
@@ -76,11 +111,18 @@ body
 .roundImage
 {
 	border-radius: 50%;
+	padding: 10%;
 }
 
+.clickableImage
+{
+	transition-duration: .2s;
+}
 .clickableImage:hover
 {
+	transition-duration: .2s;
 	cursor: pointer;
+	transform: scale(1.04);
 }
 
 .screen
@@ -93,28 +135,31 @@ body
 .solutionSection
 {
 	background-color: #FCA311;
-	height: 90vh
-}
-
-.scenarioSection
-{
-	background-color: white;
 	height: 90vh;
+	padding-top: 10vh;
 }
 
-
+.featuresSection
+{
+	padding: 0% 12% 0% 12%;
+	border-radius: 10px;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
+	display: flex;
+}
 
 .teamSection
 {
 	text-align: center;
 	background-color: #14213D;
 	height: 90vh;
+	padding-top: 15vh;
 }
+
 
 .footerSection
 {
 	background-color: white;
-	height: 50vh;
 }
 
 .cover
@@ -123,6 +168,10 @@ body
 	line-height: 50vh
 }
 
+.paddingImage
+{
+	padding: 5%;
+}
 .teamMembers
 {
 	padding: 0% 12% 0% 12%;
@@ -142,13 +191,14 @@ body
 	padding: 0;
 	/*border: 1px solid black;*/
 }
-.c80
+.c60
 {
-	width: 60%;
+	width: 55%;
 	height: 100%;
+	padding-left:10vw;
 }
 
-.c20
+.c40
 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
@@ -156,8 +206,21 @@ body
 	text-align: center;
 
 
-	width: 40%;
+	width: 45%;
 	height: 100%;
+}
+
+.c50
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 12pt;
+	text-align: center;
+
+	width: 50%;
+	height: 70vh;
+	padding: 5vh;
+	padding-top: 5vh;
 }
 
 .cMembers
@@ -188,8 +251,8 @@ h2
 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
-	font-size: 20pt;
-	margin: 5px;
+	font-size: 12pt;
+	margin: 0;
 	padding: 0;
 	color: #FCA311;
 }
@@ -205,7 +268,7 @@ h4
 {
 	font-family: 'Poppins', serif;
 	font-weight: 300;
-	font-size: 12pt;
+	font-size: 10pt;
 	color:  #EDEDED;
 	margin: 3%;
 	margin-top: 2%;
@@ -229,10 +292,16 @@ h6
 	padding-top: 10vh;
 }
 
-.bold
+.boldOrange
 {
 	color: #FCA311;
 	font-family: 'Martel', serif;
 	font-weight: 800;
-	line-height: 36pt;
+}
+
+.bold
+{
+	font-family: 'Martel', serif;
+	font-weight: 800;
+	font-size: 28pt;
 }

@@ -32,7 +32,7 @@ body
 	float: left;
 
 	width: calc(31.33% - 6px);
-	height: 60vh;
+	height: 70vh;
 	margin: 1%;
 
 	background-color: white;
@@ -92,6 +92,8 @@ body
 	background-color: rgba(0, 0, 0, 0);
 	transition-duration: .3s;
 	transform: scale(1.04);
+	cursor: pointer;
+
 }
 
 .smallFont
