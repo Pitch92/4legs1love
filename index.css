@@ -9,6 +9,12 @@ body
 	background-color: white;
 }
 
+p
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
 
 /*#region mainSection*/
 
@@ -197,6 +203,37 @@ body
 {
   font-size: 10pt;
 }
+/*#endregion*/
+
+/*#region testimonialsSection*/
+.testimonialsSection
+{
+  padding: 4% 10% 4% 10%;
+  width: 100%;
+  text-align: center;
+}
+.testimonialsSection p
+{
+  color: black;
+  font-size: .8em;
+}
+
+.testimonialsSection h2
+{
+  font-size: 2em;
+}
+.testimonialsSection .column
+{
+  width: 20%;
+  margin: 2.5%;
+  text-align: center;
+  background-color: #F9F9F9;
+  border: 1px solid #ededed;
+  border-radius: 3vh ;
+  padding: 2%;
+}
+
+
 /*#endregion*/
 
 /*#region columns*/
