@@ -118,7 +118,7 @@ p
   display: table;
   width: 100%;
 }
-.c50
+.featuresSection .column
 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
@@ -132,7 +132,7 @@ p
   align-items: center;
 }
 
-.c50 p
+.featuresSection .column p
 {
   font-family: 'Martel', serif;
 	font-weight: 700;
@@ -143,12 +143,12 @@ p
   margin-right: 10%;
 }
 
-.c50 img
+.featuresSection .column img
 {
   padding: 5% 20% 5% 20%;
 }
 
-.c50 button
+.featuresSection .colum button
 {
 
 }
@@ -236,23 +236,12 @@ p
 
 /*#endregion*/
 
-/*#region columns*/
-.column
-{
-	float:left;
-	padding: 0;
-	/*border: 1px solid black;*/
-}
-
-
-/*#endregion*/
-
 /*#region teamSection*/
 .teamSection
 {
 	background-color: #EDEDED;
 	height: 100%;
-	padding: 0% 12% 3% 12%;
+	padding: 4% 12% 3% 12%;
 	text-align: center;
 }
 
@@ -271,16 +260,19 @@ p
 
 /*#endregion*/
 
-.column button
+/*#region columns*/
+.column
 {
-  margin-auto;
-  display: block;
+	float:left;
+	padding: 0;
+	/*border: 1px solid black;*/
 }
 
-.teamSection
-{
-  padding-top: 4%;
-}
+
+/*#endregion*/
+
+
+
 .roundImage
 {
 	border-radius  : 50%;
@@ -303,6 +295,11 @@ p
 	transform: scale(1.04);
 }
 
+.column button
+{
+  margin-auto;
+  display: block;
+}
 
 button
 {
@@ -388,7 +385,7 @@ h6
 	margin-top: 2%;
 }
 
-.boldOrange
+.bold
 {
 	font-family: 'Martel', serif;
 	font-weight: 800;
@@ -396,7 +393,7 @@ h6
 
 }
 
-.bold
+.boldOrange
 {
 	font-family: 'Poppins', serif;
 	font-weight: 600;
