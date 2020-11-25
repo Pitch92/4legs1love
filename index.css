@@ -14,12 +14,9 @@ body
 
 .mainSection
 {
-	margin:0;
-
 	text-align: center;
 	overflow: hidden;
 
-	margin: 0;
 
 	background-image: url("background.jpg");
 	background-position: center;
@@ -27,8 +24,9 @@ body
 	background-color: white;
 	background-size: cover;
 
-	height: 90vh;
-	padding: 10% 8% 5% 8%;
+	height: 100%;
+  margin: 0;
+	padding: 15% 8% 8% 8%;
 }
 
 .mainSection h2
@@ -322,7 +320,7 @@ h3
 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
-	font-size: 30pt;
+	font-size: 0.8em;
 
 	color:white;
 }
@@ -331,7 +329,7 @@ h4
   color:  #14213D;
 	font-family: 'Martel', serif;
 	font-weight: 500;
-	font-size: 22pt;
+	font-size: 1.6em;
 }
 
 h5
@@ -357,7 +355,7 @@ h6
 {
 	font-family: 'Martel', serif;
 	font-weight: 800;
-	color: #FCA311;
+  color: #14213D;
 
 }
 
@@ -366,7 +364,7 @@ h6
 	font-family: 'Poppins', serif;
 	font-weight: 600;
 	font-size: 28pt;
-	color: #14213D;
+  color: #FCA311;
 
 }
 
