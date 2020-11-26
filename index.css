@@ -295,14 +295,16 @@ p
   margin: 0;
 }
 
-.FAQSection h4 {
-  margin-bottom: 5vh;
+.FAQSection h3
+{
+font-size: 1.4em;
+margin: 1vh 0 4vh 0;
 }
 
 .FAQSection .question
 {
   display: flex;
-  margin-bottom: 1vh;
+  margin-top: 3vh;
 }
 
 .FAQSection .material-icons {
