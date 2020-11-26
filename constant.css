@@ -25,6 +25,7 @@
 	position:fixed;
 	width: 100%;
 	padding: 1vh;
+	z-index: 100 ;
 }
 
 .navBarItems

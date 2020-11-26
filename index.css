@@ -275,37 +275,72 @@ p
 
 /*#endregion*/
 
-/* #region FAQ*/
-.FAQ {
+/* #region FAQSection*/
+.FAQSection {
   background-color: #14213D;
   height: 100%;
   width: 100%;
 	padding: 4% 12% 3% 12%;
 }
 
-.FAQ * {
+.FAQSection * {
   color: white;
   margin: 0;
+  z-index: 0 ;
 }
 
-.FAQ .column {
+.FAQSection .column {
   width: 50%;
   display: block;
   margin: 0;
 }
 
-.FAQ h4 {
+.FAQSection h4 {
   margin-bottom: 5vh;
 }
 
-.FAQ .firstline, .secondline, .thirdline {
+.FAQSection .question
+{
   display: flex;
   margin-bottom: 1vh;
 }
 
-.FAQ .material-icons {
+.FAQSection .material-icons {
   margin-right: 1vw;
+  transition-duration: 0.2s;
+  color: #FCA311;
 }
+
+.active .material-icons
+{
+  transform: rotate(90deg);
+  transition-duration: 0.2s;
+}
+
+.question p
+{
+  color: #FCA311;
+}
+
+.FAQSection button
+{
+  background-color: rgba(0,0,0,0);
+  border: 0px solid black;
+  transform: scale(1  );
+}
+.FAQSection button:hover
+{
+  transform: scale(1);
+}
+
+.FAQSection .content
+{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding: 0 18px;
+  background-color: rgba(0,0,0,0);
+  }
 
 /* #endregion*/
 
@@ -332,6 +367,7 @@ p
 	cursor: pointer;
 	transform: scale(1.04);
 }
+
 
 .column button
 {
