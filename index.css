@@ -340,7 +340,7 @@ margin: 1vh 0 4vh 0;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  padding: 0 18px;
+  padding: 0 55px;
   background-color: rgba(0,0,0,0);
   }
 
